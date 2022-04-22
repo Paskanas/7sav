@@ -37,8 +37,6 @@ textarea {
   border-radius: 10px;
   border-width: 0px;
   padding: 0px 15px;
-  /* background-color: #c7cdfd; */
-  /* background: transparent; */
   font-size: 18px;
   color: #354bac;
   font-weight: bold;
@@ -56,49 +54,31 @@ textarea {
 
 .small-input {
   width: calc(50% - 24px);
-  background: rgb(239, 228, 255);
+  background: rgb(230, 233, 251);
   background: linear-gradient(
     90deg,
-    rgba(
-        239,
-        228,
-        255,
-        0.7511379551820728
-      )
-      0%,
-    rgba(216, 194, 250, 1) 100%
+    rgba(230, 233, 251, 1) 0%,
+    rgba(233, 235, 255, 1) 100%
   );
 }
 .large-input {
   width: calc(100% - 24px);
-  background: rgb(211, 209, 255);
+  background: rgb(199, 205, 253);
   background: linear-gradient(
     90deg,
-    rgba(
-        211,
-        209,
-        255,
-        0.7511379551820728
-      )
-      0%,
-    rgba(177, 177, 251, 1) 100%
+    rgba(199, 205, 253, 1) 0%,
+    rgba(199, 205, 253, 1) 100%
   );
 }
 
 .larger-input {
   width: calc(100% - 24px);
   height: 10vh;
-  background: rgb(171, 166, 255);
+  background: rgb(165, 177, 253);
   background: linear-gradient(
     90deg,
-    rgba(
-        171,
-        166,
-        255,
-        0.7511379551820728
-      )
-      0%,
-    rgba(158, 158, 255, 1) 100%
+    rgba(165, 177, 253, 1) 0%,
+    rgba(165, 177, 253, 1) 100%
   );
 }
 

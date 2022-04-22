@@ -1,0 +1,127 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-color: #d4e6fe;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  align-content: flex-end;
+  background-color: white;
+  padding: 10px 30px;
+  width: 800px;
+}
+
+input,
+textarea {
+  margin: 10px;
+  height: 7vh;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 0px 15px;
+  /* background-color: #c7cdfd; */
+  /* background: transparent; */
+  font-size: 18px;
+  color: #354bac;
+  font-weight: bold;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #354bac;
+  font-weight: bold;
+}
+textarea {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  resize: none;
+}
+
+.small-input {
+  width: calc(50% - 24px);
+  background: rgb(239, 228, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(
+        239,
+        228,
+        255,
+        0.7511379551820728
+      )
+      0%,
+    rgba(216, 194, 250, 1) 100%
+  );
+}
+.large-input {
+  width: calc(100% - 24px);
+  background: rgb(211, 209, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(
+        211,
+        209,
+        255,
+        0.7511379551820728
+      )
+      0%,
+    rgba(177, 177, 251, 1) 100%
+  );
+}
+
+.larger-input {
+  width: calc(100% - 24px);
+  height: 10vh;
+  background: rgb(171, 166, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(
+        171,
+        166,
+        255,
+        0.7511379551820728
+      )
+      0%,
+    rgba(158, 158, 255, 1) 100%
+  );
+}
+
+.btn {
+  margin-left: 50%;
+  margin-top: 15px;
+  transform: translateX(-50%);
+  padding: 15px 50px;
+  border-radius: 30px;
+  border-width: 0;
+  background-color: #233bf5;
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  color: #0f1abb;
+  font-weight: normal;
+  margin: 20px 10px;
+}
+
+p {
+  color: #8adac4;
+  font-size: 14px;
+  margin: 20px 10px 10px;
+}
